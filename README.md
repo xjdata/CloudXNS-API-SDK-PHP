@@ -29,7 +29,7 @@ $api->setSecretKey('xxxxxxxxxx');//修改成自己的SECERET KEY
 ####2.3.1 使用composer安装源文件####
 切换到要存放SDK源代码的目录，执行以下命令
 ```shell
-composer require "cloudxns/cloud-xns-api-sdk-php:*"
+composer require "xjdata/cloud-xns-api-sdk-php:*"
 ```
 ####2.3.2 程序中使用SDK示例，更多详见demo文件夹####
 ```php
