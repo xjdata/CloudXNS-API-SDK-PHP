@@ -6,7 +6,7 @@
 PHP >= 5.4.0
 
 
-依赖[guzzlehttp版本5.3](https://github.com/guzzle/guzzle/tree/5.3)
+依赖[guzzlehttp版本6.2.1](https://github.com/guzzle/guzzle)
 
 ##2 安装步骤##
 ###2.1安装Composer###
@@ -30,7 +30,6 @@ $api->setSecretKey('xxxxxxxxxx');//修改成自己的SECERET KEY
 切换到要存放SDK源代码的目录，执行以下命令
 ```shell
 composer require "cloudxns/cloud-xns-api-sdk-php:*"
-composer require "guzzlehttp/guzzle: ~5.0"
 ```
 ####2.3.2 程序中使用SDK示例，更多详见demo文件夹####
 ```php
